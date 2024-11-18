@@ -1,0 +1,23 @@
+/* Remove default margins/padding and center the canvas */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Style the canvas */
+canvas {
+    display: block;
+    background-color: #000;
+}
+
+/* Canvas styling */
+#gameCanvas {
+    border: 2px solid #ffe200;
+    background-color: #333;
+    outline: 5px solid yellow;
+    display: block;
+    margin: 0 auto;
+}
